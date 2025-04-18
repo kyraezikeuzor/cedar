@@ -29,11 +29,17 @@ First, you'll need to create a Notion database with these columns:
 Here's where to put the files in your Next.js project:
 
 your-project/
+
 ├── lib/
+
 │ └── notion.ts # Notion integration code
+
 ├── components/
+
 │ ├── parser.tsx # Content parser component
+
 │ └── portfolio.tsx # Portfolio display component
+
 └── .env.local # Your environment variables
 
 ## The Code
